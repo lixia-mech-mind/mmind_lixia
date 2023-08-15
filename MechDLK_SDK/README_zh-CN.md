@@ -1,6 +1,6 @@
 #  Mech-DLK SDK 2.0.0 正式推出，助力深度学习模型推理! 
 <div align="center">
-English | [简体中文](README_zh-CN.md)
+[English](README.md) | 简体中文
 </div>
 📢 欢迎使用 Mech-DLK SDK 2.0.0! 
 
@@ -50,7 +50,7 @@ Mech-DLK SDK 中提供的 C 语言例程分为两类： **Basic** 和 **Advanced
 ## [文档](https://docs.mech-mind.net/zh/dlk-sdk-manual/2.0.0/dlk-sdk.html)
 请参阅[快速入门](https://docs.mech-mind.net/zh/dlk-sdk-manual/2.0.0/infer-tutorial.html)部分了解如何使用 Mech-DLK SDK 对 Mech-DLK（2.4.2 版本及以上）导出模型的推理。
 
-你也可以参考文档中的以下内容，
+你也可以参考文档中的以下内容，快速上手使用 Mech-DLK SDK：
 - [系统要求](https://docs.mech-mind.net/zh/dlk-sdk-manual/2.0.0/software-installation.html#_system_requirements)
 - [如何配置环境](https://docs.mech-mind.net/zh/dlk-sdk-manual/2.0.0/software-installation.html#_configure_environment)
 - [如何构建和运行例程](https://docs.mech-mind.net/zh/dlk-sdk-manual/2.0.0/samples/c-windows.html#_build_and_run_samples)
