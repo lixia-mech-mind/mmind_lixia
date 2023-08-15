@@ -1,4 +1,7 @@
 # Mech-DLK SDK is now available! 🎉
+<div align="center">
+English | [简体中文](README_zh-CN.md)
+</div>
 Greetings, fellow developers! 👋
 
 Empower your creativity with Mech-DLK SDK, ready for you to unleash your programming prowess. Start crafting your own applications today!
