@@ -26,7 +26,7 @@ Mech-DLK SDK 是专门配合 Mech-DLK 使用的二次开发软件包，主要用
 ![inference flow](https://docs.mech-mind.net/download/github/DLK/inference-flow-zh.png)
 
 ## C 语言例程
-Mech-DLK SDK 中提供的 C 语言例程分为两类： **Basic** 和 **Advanced**.
+Mech-DLK SDK 中提供的 C 语言例程分为两类： **Basic** 和 **Advanced**。
 
 ### 📌 Basic
 此类例程主要用来展示如何使用 Mech-DLK 导出的各类单级模型推理单张图片以及获取并可视化结果。
