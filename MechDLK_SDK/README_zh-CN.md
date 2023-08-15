@@ -1,62 +1,61 @@
-# Mech-DLK SDK 正式推出，助力深度学习模型推理! 🎉
+#  Mech-DLK SDK 2.0.0 正式推出，助力深度学习模型推理! 
 <div align="center">
 English | [简体中文](README_zh-CN.md)
 </div>
-Mech-DLK SDK 现已推出，欢迎使用! 👋
+📢 欢迎使用 Mech-DLK SDK 2.0.0! 
 
-Empower your creativity with Mech-DLK SDK, ready for you to unleash your programming prowess. Start crafting your own applications today!
-## What's Mech-DLK SDK
-Mech-DLK SDK is a secondary development software kit specifically designed to be used with Mech-DLK. It mainly helps you easily do deep learning inference in your software systems. With Mech-DLK SDK, you can rapidly deploy deep learning models and flexibly integrate deep learning functionality into your own applications without reliance on Mech-Vision. Currently, development in C language is supported.
+## 简介
+Mech-DLK SDK 是专门配合 Mech-DLK 使用的二次开发软件包，主要用来帮助用户在已有的软件体系内轻松构建深度学习推理部分。你可以在不依赖 Mech-Vision 的情况下，快速部署深度学习模型，灵活地集成深度学习功能到自己的应用中。目前支持 C 语言开发。
 
-If you have any questions or have anything to share regarding our SDK, feel free to post on [Mech-Mind Online Community](https://community.mech-mind.com/).
+💡 在使用过程中，如果有任何关于 Mech-DLK SDK 的意见和建议，欢迎在[梅卡曼德在线社区](https://community.mech-mind.com.cn/)上发帖。
 
-## How to install Mech-DLK SDK
+## 安装 Mech-DLK SDK
 
-1. Create a local project folder on your device, such as “dlk_sdk”.
+1. 在本地创建一个项目文件夹，例如“dlk_sdk”。
 
-2. Clone the repository of [Mech-DLK SDK](https://github.com/MechMindRobotics/mechdlk_sdk.git) to the created local project folder.
+2. 将 [Mech-DLK SDK 仓库](https://github.com/MechMindRobotics/mechdlk_sdk.git)从 GitHub 上克隆到创建的本地项目文件夹下。
 
-3. Download the third-party libraries (3rd_dll.zip) and resources (resources.zip) that Mech-DLK SDK relies on from [Downloads](https://downloads.mech-mind.com.cn/?tab=tab-dlk-sdk).
+3. 从[下载中心](https://downloads.mech-mind.com.cn/?tab=tab-dlk-sdk)下载 Mech-DLK SDK 依赖的第三方库（3rd_dll.zip）和资源文件（resources.zip）。
 
-4. Unzip the downloaded packages of third-party libraries and resources and copy and paste the respective folders to the created project folder.
+4. 解压第三方库压缩包和资源文件压缩包，并将解压后的文件夹拷贝到创建的项目文件夹下。
 
-## Glimpse of inference flow 👀 
+## 推理流程速览 👀 
 ![inference flow](https://docs.mech-mind.net/download/github/DLK/inference-flow-en.png)
 
-## C samples
-The samples provided are in two categories: **Basic** and **Advanced**.
+## C 语言例程
+Mech-DLK SDK 中提供的 C 语言例程分为两类： **Basic** 和 **Advanced**.
 
 ### 📌 Basic
-Samples using single models exported from Mech-DLK to do inference of single images, as well as samples for obtaining and visualizing results.
+此类例程主要用来展示如何使用 Mech-DLK 导出的各类单级模型推理单张图片以及获取并可视化结果。
 
-- [Classification](https://github.com/MechMindRobotics/mechdlk_sdk/blob/main/samples/c/Basic/Classification.c): a sample for inference based on the Classification model.
+- [Classification](https://github.com/MechMindRobotics/mechdlk_sdk/blob/main/samples/c/Basic/Classification.c): 图像分类模型推理示例；
 
-- [DefectSegmentation](https://github.com/MechMindRobotics/mechdlk_sdk/blob/main/samples/c/Basic/DefectSegmentation.c): a sample for inference based on the Defect Segmentation model.
+- [DefectSegmentation](https://github.com/MechMindRobotics/mechdlk_sdk/blob/main/samples/c/Basic/DefectSegmentation.c): 缺陷分割模型推理示例；
 
-- [FastPositioning](https://github.com/MechMindRobotics/mechdlk_sdk/blob/main/samples/c/Basic/FastPositioning.c): a sample for inference based on the Fast Positioning model.
+- [FastPositioning](https://github.com/MechMindRobotics/mechdlk_sdk/blob/main/samples/c/Basic/FastPositioning.c): 快速定位模型推理示例；
 
-- [InstanceSegmentation](https://github.com/MechMindRobotics/mechdlk_sdk/blob/main/samples/c/Basic/InstanceSegmentation.c): a sample for inference based on the Instance Segmentation model.
+- [InstanceSegmentation](https://github.com/MechMindRobotics/mechdlk_sdk/blob/main/samples/c/Basic/InstanceSegmentation.c): 实例分割模型推理示例；
 
-- [ObjectDetection](https://github.com/MechMindRobotics/mechdlk_sdk/blob/main/samples/c/Basic/ObjectDetection.c): a sample for inference based on the Object Detection model.
+- [ObjectDetection](https://github.com/MechMindRobotics/mechdlk_sdk/blob/main/samples/c/Basic/ObjectDetection.c): 目标检测模型推理示例。
 
 ### 📌 Advanced
-Samples for simultaneous inference of multiple images and inference based on cascaded models.
+此类例程主要用来展示级联模型推理和图同时推理。
 
-- [CascadeModel](https://github.com/MechMindRobotics/mechdlk_sdk/blob/main/samples/c/Advanced/CascadeModel.c): a sample for inference based on cascaded models.
+- [CascadeModel](https://github.com/MechMindRobotics/mechdlk_sdk/blob/main/samples/c/Advanced/CascadeModel.c): 级联模型推理示例；
 
-- [FolderImagesInfer](https://github.com/MechMindRobotics/mechdlk_sdk/blob/main/samples/c/Advanced/FolderImagesInfer.c): a sample used to show the inference of images in a folder one by one.
+- [FolderImagesInfer](https://github.com/MechMindRobotics/mechdlk_sdk/blob/main/samples/c/Advanced/FolderImagesInfer.c): 依次推理文件夹中图像示例；
 
-- [MultiImageInfer](https://github.com/MechMindRobotics/mechdlk_sdk/blob/main/samples/c/Advanced/MultiImageInfer.c): a sample for simultaneous inference of images.
+- [MultiImageInfer](https://github.com/MechMindRobotics/mechdlk_sdk/blob/main/samples/c/Advanced/MultiImageInfer.c): 多图同时推理示例。
 
-## [Documentation](https://docs.mech-mind.net/en/dlk-sdk-manual/2.0.0/dlk-sdk.html)
-Please refer to the [Getting Started](https://docs.mech-mind.net/en/dlk-sdk-manual/2.0.0/infer-tutorial.html) section for instructions on using Mech-DLK SDK for model inference.
+## [文档](https://docs.mech-mind.net/zh/dlk-sdk-manual/2.0.0/dlk-sdk.html)
+请参阅[快速入门](https://docs.mech-mind.net/zh/dlk-sdk-manual/2.0.0/infer-tutorial.html)部分了解如何使用 Mech-DLK SDK 对 Mech-DLK（2.4.2 版本及以上）导出模型的推理。
 
-You may also find other contents that can help you get started with Mech-DLK SDK.
-- [System requirements](https://docs.mech-mind.net/en/dlk-sdk-manual/2.0.0/software-installation.html#_system_requirements)
-- [How to configure the environment](https://docs.mech-mind.net/en/dlk-sdk-manual/2.0.0/software-installation.html#_configure_environment)
-- [How to build and run samples](https://docs.mech-mind.net/en/dlk-sdk-manual/2.0.0/samples/c-windows.html#_build_and_run_samples)
-- [Mech-DLK SDK C APIs](https://docs.mech-mind.net/en/dlk-sdk-manual/2.0.0/api-reference/api-reference.html)
-- [FAQ](https://docs.mech-mind.net/en/dlk-sdk-manual/2.0.0/faq/faq.html)
+你也可以参考文档中的以下内容，
+- [系统要求](https://docs.mech-mind.net/zh/dlk-sdk-manual/2.0.0/software-installation.html#_system_requirements)
+- [如何配置环境](https://docs.mech-mind.net/zh/dlk-sdk-manual/2.0.0/software-installation.html#_configure_environment)
+- [如何构建和运行例程](https://docs.mech-mind.net/zh/dlk-sdk-manual/2.0.0/samples/c-windows.html#_build_and_run_samples)
+- [Mech-DLK SDK C APIs](https://docs.mech-mind.net/zh/dlk-sdk-manual/2.0.0/api-reference/api-reference.html)
+- [常见问题](https://docs.mech-mind.net/zh/dlk-sdk-manual/2.0.0/faq/faq.html)
 
-## License
-The above C samples of Mech-DLK SDK are distributed under the [BSD license](https://github.com/MechMindRobotics/mechdlk_sdk/blob/main/LICENSE).
+## 开源许可证
+Mech-DLK SDK 中的 C 语言示例代码采用 [BSD 许可证](https://github.com/MechMindRobotics/mechdlk_sdk/blob/main/LICENSE).
