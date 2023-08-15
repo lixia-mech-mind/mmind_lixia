@@ -1,12 +1,14 @@
-# Mech-DLK SDK is now available! 🎉
+# Mech-DLK SDK 2.0.0 is now available! 🎉
 <div align="center">
 
-English | [简体中文](README_zh-CN.md)
+🌐 English | [简体中文](README_zh-CN.md)
 
 </div>
+
 Greetings, fellow developers! 👋
 
 Empower your creativity with Mech-DLK SDK, ready for you to unleash your programming prowess. Start crafting your own applications today!
+
 ## What's Mech-DLK SDK
 Mech-DLK SDK is a secondary development software kit specifically designed to be used with Mech-DLK. It mainly helps you easily do deep learning inference in your software systems. With Mech-DLK SDK, you can rapidly deploy deep learning models and flexibly integrate deep learning functionality into your own applications without reliance on Mech-Vision. Currently, development in C language is supported.
 
