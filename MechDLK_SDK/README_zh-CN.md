@@ -5,10 +5,10 @@
 
 </div>
 
-📢 欢迎使用 Mech-DLK SDK 2.0.0! 
+📢 欢迎使用 Mech-DLK SDK 2.0.0！
 
 ## 简介
-Mech-DLK SDK 是专门配合 Mech-DLK 使用的二次开发软件包，主要用来帮助用户在已有的软件体系内轻松构建深度学习推理部分。你可以在不依赖 Mech-Vision 的情况下，快速部署深度学习模型，灵活地集成深度学习功能到自己的应用中。目前支持 C 语言开发。
+Mech-DLK SDK 是专门配合 [Mech-DLK](https://www.mech-mind.com.cn/product/mech-dlk-offline-training-tools-for-deep-learning.html) 使用的二次开发软件包，主要用来帮助用户在已有的软件体系内轻松构建深度学习推理部分。你可以在不依赖 [Mech-Vision](https://www.mech-mind.com.cn/product/mech-vision-graphical-machine-vision-software.html) 的情况下，快速部署深度学习模型，灵活地集成深度学习功能到自己的应用中。目前支持 C 语言开发。
 
 💡 在使用过程中，如果有任何关于 Mech-DLK SDK 的意见和建议，欢迎在[梅卡曼德在线社区](https://community.mech-mind.com.cn/)上发帖交流。
 
@@ -16,11 +16,11 @@ Mech-DLK SDK 是专门配合 Mech-DLK 使用的二次开发软件包，主要用
 
 1. 在本地创建一个项目文件夹，例如“dlk_sdk”。
 
-2. 将 [Mech-DLK SDK 仓库](https://github.com/MechMindRobotics/mechdlk_sdk.git)从 GitHub 上克隆到创建的本地项目文件夹下。
+2. 将 [Mech-DLK SDK](https://github.com/MechMindRobotics/mechdlk_sdk.git) 从 GitHub 克隆到该项目文件夹下。
 
-3. 从[下载中心](https://downloads.mech-mind.com.cn/?tab=tab-dlk-sdk)下载 Mech-DLK SDK 依赖的第三方库（3rd_dll.zip）和资源文件（resources.zip）。
+3. 从[下载中心](https://downloads.mech-mind.com.cn/?tab=tab-dlk-sdk)下载 Mech-DLK SDK 依赖的第三方库（3rd_dll.zip）和资源文件（resources.zip）到该项目文件夹下。
 
-4. 解压第三方库压缩包和资源文件压缩包，并将解压后的文件夹拷贝到创建的项目文件夹下。
+4. 解压第三方库压缩包和资源文件压缩包。
 
 ## 推理流程速览 👀 
 ![inference flow](https://docs.mech-mind.net/download/github/DLK/inference-flow-zh.png)
@@ -29,7 +29,7 @@ Mech-DLK SDK 是专门配合 Mech-DLK 使用的二次开发软件包，主要用
 Mech-DLK SDK 中提供的 C 语言例程分为两类： **Basic** 和 **Advanced**。
 
 ### 📌 Basic
-此类例程主要用来展示如何使用 Mech-DLK 导出的各类单级模型推理单张图片以及获取并可视化结果。
+此类例程主要用来展示如何使用 Mech-DLK 导出的各类单级模型推理单张图片、获取及可视化结果。
 
 - [Classification](https://github.com/MechMindRobotics/mechdlk_sdk/blob/main/samples/c/Basic/Classification.c)：图像分类模型推理示例；
 
