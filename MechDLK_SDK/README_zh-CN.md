@@ -1,5 +1,8 @@
-# Mech-DLK SDK is now available! 🎉
-Greetings, fellow developers! 👋
+# Mech-DLK SDK 正式推出，助力深度学习模型推理! 🎉
+<div align="center">
+English | [简体中文](README_zh-CN.md)
+</div>
+Mech-DLK SDK 现已推出，欢迎使用! 👋
 
 Empower your creativity with Mech-DLK SDK, ready for you to unleash your programming prowess. Start crafting your own applications today!
 ## What's Mech-DLK SDK
