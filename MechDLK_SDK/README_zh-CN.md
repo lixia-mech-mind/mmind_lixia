@@ -1,6 +1,8 @@
 #  Mech-DLK SDK 2.0.0 正式推出，助力深度学习模型推理! 
 <div align="center">
-[English](README.md) | 简体中文
+
+[English](/d:/Repo/mmind_lixia/MechDLK_SDK/README.md) | 简体中文
+
 </div>
 📢 欢迎使用 Mech-DLK SDK 2.0.0! 
 
@@ -20,7 +22,7 @@ Mech-DLK SDK 是专门配合 Mech-DLK 使用的二次开发软件包，主要用
 4. 解压第三方库压缩包和资源文件压缩包，并将解压后的文件夹拷贝到创建的项目文件夹下。
 
 ## 推理流程速览 👀 
-![inference flow](https://docs.mech-mind.net/download/github/DLK/inference-flow-en.png)
+![inference flow](https://docs.mech-mind.net/download/github/DLK/inference-flow-zh.png)
 
 ## C 语言例程
 Mech-DLK SDK 中提供的 C 语言例程分为两类： **Basic** 和 **Advanced**.
