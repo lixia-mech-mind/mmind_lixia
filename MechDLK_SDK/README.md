@@ -14,7 +14,7 @@ Mech-DLK SDK is a secondary development software kit specifically designed to be
 
 If you haven't installed Mech-DLK, please go to [Downloads](https://downloads.mech-mind.com/?tab=tab-dlk) to get the Mech-DLK Installer 2.4.2.
 
-Before applying Mech-DLK SDK for secondary development, make sure that you've purchased Mech-DLK's Pro-Run or Pro-Train license dongle. If not, please contact Mech-Mind pre-sales or support engineers to get one (info@mech-mind.net)!
+Before applying Mech-DLK SDK for secondary development, make sure that you've purchased Mech-DLK's Pro-Run or Pro-Train license dongle. If not, please contact Mech-Mind pre-sales or support engineers to get one (info@mech-mind.net).
 
 💡 If you have any questions or have anything to share regarding our SDK, feel free to post on [Mech-Mind Online Community](https://community.mech-mind.com/). You can download 
 
