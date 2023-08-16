@@ -61,4 +61,4 @@ Mech-DLK SDK 中提供的 C 语言例程分为两类： **Basic** 和 **Advanced
 - [常见问题](https://docs.mech-mind.net/zh/dlk-sdk-manual/2.0.0/faq/faq.html)
 
 ## 开源许可证
-Mech-DLK SDK 中的 C 语言例程采用 [BSD 许可证](https://github.com/MechMindRobotics/mechdlk_sdk/blob/main/LICENSE).
+Mech-DLK SDK 中的 C 语言例程采用 [BSD 许可证](https://github.com/MechMindRobotics/mechdlk_sdk/blob/main/LICENSE)。
