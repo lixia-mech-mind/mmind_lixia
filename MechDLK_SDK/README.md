@@ -28,7 +28,6 @@ If you have any questions or have anything to share regarding our SDK, feel free
 |Graphics card |GeForce GTX 1650 or above |GeForce RTX 3060 or above
 |Graphics card driver |Version 472.50 or above |Version 472.50 or above
 
-
 ### ✅ Installation steps
 
 
