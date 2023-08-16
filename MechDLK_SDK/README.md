@@ -16,7 +16,7 @@ Mech-DLK SDK is a secondary development software kit specifically designed to be
 
 ## How to install Mech-DLK SDK
 
-### Prerequisites
+### Prerequisite
  Make sure that you've purchased Mech-DLK and obtained a Pro-Train/Pro-Run dongle license. If you have any questions, don't hesitate to contact Mech-Mind pre-sales or support engineers.
 
 📞 400-9696-010

@@ -10,9 +10,21 @@
 ## 简介
 Mech-DLK SDK 是专门配合 [Mech-DLK](https://www.mech-mind.com.cn/product/mech-dlk-offline-training-tools-for-deep-learning.html) 使用的二次开发软件包，主要用来帮助用户在已有的软件体系内轻松构建深度学习推理部分。你可以在不依赖 [Mech-Vision](https://www.mech-mind.com.cn/product/mech-vision-graphical-machine-vision-software.html) 的情况下，快速部署深度学习模型，灵活地集成深度学习功能到自己的应用中。目前支持 C 语言开发。
 
+Mech-DLK 拥有高精度检测算法，操作简单，用AI技术高效解决复杂质检问题。如想尝试，请单击此处联系我们。
+
 💡 在使用过程中，如果有任何关于 Mech-DLK SDK 的意见和建议，欢迎在[梅卡曼德在线社区](https://community.mech-mind.com.cn/)上发帖交流。
 
 ## 安装 Mech-DLK SDK
+
+### 安装前提
+
+请确保你已购买了我们的产品 Mech-DLK，并已有相应版本的加密狗权限（Pro-Train 或 Pro-Run）。如有任何问题，请咨询梅卡曼德售前工程师或销售人员。
+
+📞 400-9696-010
+
+📧 service@mech-mind.net
+
+### 安装步骤
 
 1. 在本地创建一个项目文件夹，例如“dlk_sdk”。
 
