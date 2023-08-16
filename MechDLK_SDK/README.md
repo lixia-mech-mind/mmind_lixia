@@ -12,18 +12,24 @@ Empower your creativity with Mech-DLK SDK, ready for you to unleash your program
 ## What's Mech-DLK SDK
 Mech-DLK SDK is a secondary development software kit specifically designed to be used with [Mech-DLK](https://www.mech-mind.com/product/mech-dlk-deep-learning-software.html). It mainly helps you easily do deep learning inference in your software systems. With Mech-DLK SDK, you can rapidly deploy deep learning models and flexibly integrate deep learning functionality into your own applications without reliance on [Mech-Vision](https://www.mech-mind.com/product/mech-vision-machine-vision-software.html). Currently, development in C language is supported.
 
-💡 If you have any questions or have anything to share regarding our SDK, feel free to post on [Mech-Mind Online Community](https://community.mech-mind.com/).
+If you have any questions or have anything to share regarding our SDK, feel free to post on [Mech-Mind Online Community](https://community.mech-mind.com/).
 
 ## How to install Mech-DLK SDK
 
-### Prerequisite
- Make sure that you've purchased Mech-DLK and obtained a Pro-Train/Pro-Run dongle license. If you have any questions, don't hesitate to contact Mech-Mind pre-sales or support engineers.
+### ❗Prerequisites
+1. Make sure that you've purchased Mech-DLK's Pro-Train/Pro-Run license dongle.
+2. It is recommended that the device that runs Mech-DLK should satisfy the following requirements:
 
-📞 400-9696-010
+|Authorized dongle version | Pro-Run | Pro-Train
+|  :----:  | :----:  | :----:
+|Operating system |Windows 10 or above |Windows 10 or above
+|CPU |Intel® Core™ i7-6700 or above |Intel® Core™ i7-6700 or above
+|Memory |8GB or above |16GB or above
+|Graphics card |GeForce GTX 1650 or above |GeForce RTX 3060 or above
+|Graphics card driver |Version 472.50 or above |Version 472.50 or above
 
-📧 service@mech-mind.net
 
-### Installation steps
+### ✅ Installation steps
 
 
 1. Create a local project folder on your device, such as “dlk_sdk”.

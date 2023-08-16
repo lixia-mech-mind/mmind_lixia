@@ -18,11 +18,16 @@ Mech-DLK 拥有高精度检测算法，操作简单，用AI技术高效解决复
 
 ### 安装前提
 
-请确保你已购买了我们的产品 Mech-DLK，并已有相应版本的加密狗权限（Pro-Train 或 Pro-Run）。如有任何问题，请咨询梅卡曼德售前工程师或销售人员。
+1. 请确保你已购买 Mech-DLK 的加密狗授权版本 Pro-Train 或 Pro-Run。
+2. 建议安装 Mech-DLK 的设备满足以下要求：
 
-📞 400-9696-010
-
-📧 service@mech-mind.net
+|加密狗授权版本 | Pro-Run | Pro-Train
+|  :----:  | :----:  | :----:
+|操作系统 |Windows 10 及以上 |Windows 10 及以上
+|CPU |Intel® Core™ i7-6700 及以上 |Intel® Core™ i7-6700 及以上
+|内存 |8 GB 及以上 |16 GB 及以上
+|显卡 |GeForce GTX 1650 及以上 |GeForce RTX 3060 及以上
+|显卡驱动 |驱动版本 472.50 及以上 |驱动版本 472.50 及以上
 
 ### 安装步骤
 
