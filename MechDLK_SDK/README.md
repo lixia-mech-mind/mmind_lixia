@@ -12,9 +12,7 @@ Empower your creativity with Mech-DLK SDK, ready for you to unleash your program
 ## What's Mech-DLK SDK
 Mech-DLK SDK is a secondary development software kit specifically designed to be used with [Mech-DLK](https://www.mech-mind.com/product/mech-dlk-deep-learning-software.html). It mainly helps you easily do deep learning inference in your software systems. With Mech-DLK SDK, you can rapidly deploy deep learning models and flexibly integrate deep learning functionality into your own applications without reliance on [Mech-Vision](https://www.mech-mind.com/product/mech-vision-machine-vision-software.html). Currently, development in C language is supported.
 
-📥 If you haven't installed Mech-DLK, please go to [Downloads](https://downloads.mech-mind.com/?tab=tab-dlk) to get the Mech-DLK Installer 2.4.2 or above version.
-
-Before applying Mech-DLK SDK for secondary development, make sure that you've purchased Mech-DLK's Pro-Run or Pro-Train license dongle. If not, please contact Mech-Mind pre-sales or support engineers to get one (info@mech-mind.net).
+📥 If you need to install Mech-DLK, please go to [Downloads](https://downloads.mech-mind.com/?tab=tab-dlk) to get the Mech-DLK Installer (2.4.2 or above version). You can contact us at info@mech-mind.net to learn more about license dongles.
 
 💡 If you have any questions or have anything to share regarding our SDK, feel free to post on [Mech-Mind Online Community](https://community.mech-mind.com/). You can download 
 
