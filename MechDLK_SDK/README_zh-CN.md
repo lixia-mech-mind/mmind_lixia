@@ -10,6 +10,10 @@
 ## 简介
 Mech-DLK SDK 是专门配合 [Mech-DLK](https://www.mech-mind.com.cn/product/mech-dlk-offline-training-tools-for-deep-learning.html) 使用的二次开发软件包，主要用来帮助用户在已有的软件体系内轻松构建深度学习推理部分。你可以在不依赖 [Mech-Vision](https://www.mech-mind.com.cn/product/mech-vision-graphical-machine-vision-software.html) 的情况下，快速部署深度学习模型，灵活地集成深度学习功能到自己的应用中。目前支持 C 语言开发。
 
+如需下载 Mech-DLK 软件，你可以进入[下载中心](https://downloads.mech-mind.com.cn/?tab=tab-dlk)获取安装包（2.4.2 或以上版本）。
+
+使用 Mech-DLK SDK 前，需要购买 Pro-Run 或 Pro-Train 版本的 Mech-DLK 授权加密狗。如需购买，请咨询梅卡曼德售前工程师或销售人员（info@mech-mind.net）。
+
 💡 在使用过程中，如果有任何关于 Mech-DLK SDK 的意见和建议，欢迎在[梅卡曼德在线社区](https://community.mech-mind.com.cn/)上发帖交流。
 
 ## 安装 Mech-DLK SDK
@@ -46,24 +50,24 @@ Mech-DLK SDK 中提供的 C 语言例程分为两类： **Basic** 和 **Advanced
 ### 📌 Basic
 此类例程主要用来展示如何使用 Mech-DLK 导出的各类单级模型推理单张图片、获取及可视化结果。
 
-- [Classification](https://github.com/MechMindRobotics/mechdlk_sdk/tree/v2.0.0/samples/c/Basic/Classification.c)：图像分类模型推理示例；
+- [Classification](https://github.com/MechMindRobotics/mechdlk_sdk/blob/v2.0.0/samples/c/Basic/Classification.c)：图像分类模型推理示例；
 
-- [DefectSegmentation](https://github.com/MechMindRobotics/mechdlk_sdk/blob/main/samples/c/Basic/DefectSegmentation.c)：缺陷分割模型推理示例；
+- [DefectSegmentation](https://github.com/MechMindRobotics/mechdlk_sdk/blob/v2.0.0/samples/c/Basic/DefectSegmentation.c)：缺陷分割模型推理示例；
 
-- [FastPositioning](https://github.com/MechMindRobotics/mechdlk_sdk/blob/main/samples/c/Basic/FastPositioning.c)：快速定位模型推理示例；
+- [FastPositioning](https://github.com/MechMindRobotics/mechdlk_sdk/blob/v2.0.0/samples/c/Basic/FastPositioning.c)：快速定位模型推理示例；
 
-- [InstanceSegmentation](https://github.com/MechMindRobotics/mechdlk_sdk/blob/main/samples/c/Basic/InstanceSegmentation.c)：实例分割模型推理示例；
+- [InstanceSegmentation](https://github.com/MechMindRobotics/mechdlk_sdk/blob/v2.0.0/samples/c/Basic/InstanceSegmentation.c)：实例分割模型推理示例；
 
-- [ObjectDetection](https://github.com/MechMindRobotics/mechdlk_sdk/blob/main/samples/c/Basic/ObjectDetection.c)：目标检测模型推理示例。
+- [ObjectDetection](https://github.com/MechMindRobotics/mechdlk_sdk/blob/v2.0.0/samples/c/Basic/ObjectDetection.c)：目标检测模型推理示例。
 
 ### 📌 Advanced
 此类例程主要用来展示级联模型推理和多图同时推理。
 
-- [CascadeModel](https://github.com/MechMindRobotics/mechdlk_sdk/blob/main/samples/c/Advanced/CascadeModel.c)：级联模型推理示例；
+- [CascadeModel](https://github.com/MechMindRobotics/mechdlk_sdk/blob/v2.0.0/samples/c/Advanced/CascadeModel.c)：级联模型推理示例；
 
-- [FolderImagesInfer](https://github.com/MechMindRobotics/mechdlk_sdk/blob/main/samples/c/Advanced/FolderImagesInfer.c)：依次推理文件夹中图像示例；
+- [FolderImagesInfer](https://github.com/MechMindRobotics/mechdlk_sdk/blob/v2.0.0/samples/c/Advanced/FolderImagesInfer.c)：依次推理文件夹中图像示例；
 
-- [MultiImageInfer](https://github.com/MechMindRobotics/mechdlk_sdk/blob/main/samples/c/Advanced/MultiImageInfer.c)：多图同时推理示例。
+- [MultiImageInfer](https://github.com/MechMindRobotics/mechdlk_sdk/blob/v2.0.0/samples/c/Advanced/MultiImageInfer.c)：多图同时推理示例。
 
 ## [文档](https://docs.mech-mind.net/zh/dlk-sdk-manual/2.0.0/dlk-sdk.html)
 请参阅[快速入门](https://docs.mech-mind.net/zh/dlk-sdk-manual/2.0.0/infer-tutorial.html)部分了解如何使用 Mech-DLK SDK 对 Mech-DLK（2.4.2 版本及以上）导出模型的推理。
