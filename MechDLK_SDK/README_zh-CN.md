@@ -46,7 +46,7 @@ Mech-DLK SDK 中提供的 C 语言例程分为两类： **Basic** 和 **Advanced
 ### 📌 Basic
 此类例程主要用来展示如何使用 Mech-DLK 导出的各类单级模型推理单张图片、获取及可视化结果。
 
-- [Classification](https://github.com/MechMindRobotics/mechdlk_sdk/blob/main/samples/c/Basic/Classification.c)：图像分类模型推理示例；
+- [Classification](https://github.com/MechMindRobotics/mechdlk_sdk/tree/v2.0.0/samples/c/Basic/Classification.c)：图像分类模型推理示例；
 
 - [DefectSegmentation](https://github.com/MechMindRobotics/mechdlk_sdk/blob/main/samples/c/Basic/DefectSegmentation.c)：缺陷分割模型推理示例；
 

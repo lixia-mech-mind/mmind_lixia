@@ -35,7 +35,7 @@ If you have any questions or have anything to share regarding our SDK, feel free
 
 2. Clone the repository of [Mech-DLK SDK](https://github.com/MechMindRobotics/mechdlk_sdk.git) to the project folder.
 
-3. Download the third-party libraries (3rd_dll.zip) and resources (resources.zip) that Mech-DLK SDK relies on to the project folder from [Downloads](https://downloads.mech-mind.com.cn/?tab=tab-dlk-sdk).
+3. Download the third-party libraries (3rd_dll.zip) and resources (resources.zip) that Mech-DLK SDK relies on to the project folder from [Downloads](https://downloads.mech-mind.com/?tab=tab-dlk-sdk).
 
 4. Unzip the downloaded packages of third-party libraries and resources.
 
