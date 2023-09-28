@@ -45,7 +45,7 @@ Mech-DLK SDK 是专门配合 [Mech-DLK](https://www.mech-mind.com.cn/product/mec
 ## 📌 C# 例程
 Mech-DLK SDK 中提供的 C# 例程分为两类：**Basic** 和 **Advanced**。
 
-### Basic 例程
+### Basic 
 此类例程主要用来展示如何使用 Mech-DLK 训练的模型进行单图推理或多图同时推理、获取并可视化结果。
 
 - [ImageInfer](https://github.com/MechMindRobotics/mechdlk_sdk/blob/v2.0.1/samples/csharp/Basic/ImageInfer/ImageInfer.cs)：单图推理示例（支持单级模型与级联模型）
