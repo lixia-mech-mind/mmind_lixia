@@ -42,25 +42,25 @@ Mech-DLK SDK 是专门配合 [Mech-DLK](https://www.mech-mind.com.cn/product/mec
 ## 推理流程速览 👀 
 ![inference flow](https://docs.mech-mind.net/download/github/DLK/inference-flow-zh.png)
 
-## C# 例程
+## 📌 C# 例程
 Mech-DLK SDK 中提供的 C# 例程分为两类：**Basic** 和 **Advanced**。
 
-### 📌 Basic 例程
+### Basic 例程
 此类例程主要用来展示如何使用 Mech-DLK 训练的模型进行单图推理或多图同时推理、获取并可视化结果。
 
 - [ImageInfer](https://github.com/MechMindRobotics/mechdlk_sdk/blob/v2.0.1/samples/csharp/Basic/ImageInfer/ImageInfer.cs)：单图推理示例（支持单级模型与级联模型）
 - [MultiImageInfer](https://github.com/MechMindRobotics/mechdlk_sdk/blob/v2.0.1/samples/csharp/Basic/MutiImageInfer/MutiImageInfer.cs)：多图推理示例（支持单级模型与级联模型）
 
-### 📌 Advanced
+### Advanced
 此类例程主要用来展示 Mech-DLK SDK 与 HALCON/OpenCV 协同开发。
 
 - [ImageInferWithHalcon](https://github.com/MechMindRobotics/mechdlk_sdk/blob/v2.0.1/samples/csharp/Advanced/ImageInferWithHalcon/ImageInferWithHalcon.cs)：Mech-DLK SDK 与 HALCON 配合使用示例（需本地安装 HALCON）
 - [ImageInferWithOpenCV](https://github.com/MechMindRobotics/mechdlk_sdk/blob/v2.0.1/samples/csharp/Advanced/ImageInferWithOpenCV/ImageInferWithOpenCV.cs)：Mech-DLK SDK 与 OpenCV 配合使用示例（需本地安装 OpenCV）
 
-## C 例程
+## 📌 C 例程
 Mech-DLK SDK 中提供的 C 例程分为两类： **Basic** 和 **Advanced**。
 
-### 📌 Basic
+### Basic
 此类例程主要用来展示如何使用 Mech-DLK 导出的各类单级模型推理单张图片、获取及可视化结果。
 
 - [Classification](https://github.com/MechMindRobotics/mechdlk_sdk/blob/v2.0.1/samples/c/Basic/Classification.c)：图像分类模型推理示例；
@@ -73,7 +73,7 @@ Mech-DLK SDK 中提供的 C 例程分为两类： **Basic** 和 **Advanced**。
 
 - [ObjectDetection](https://github.com/MechMindRobotics/mechdlk_sdk/blob/v2.0.1/samples/c/Basic/ObjectDetection.c)：目标检测模型推理示例。
 
-### 📌 Advanced
+### Advanced
 此类例程主要用来展示级联模型推理和多图同时推理。
 
 - [CascadeModel](https://github.com/MechMindRobotics/mechdlk_sdk/blob/v2.0.1/samples/c/Advanced/CascadeModel.c)：级联模型推理示例；

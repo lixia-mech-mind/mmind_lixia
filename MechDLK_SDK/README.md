@@ -44,27 +44,27 @@ Mech-DLK SDK is a secondary development software kit specifically designed to be
 ## Glimpse of inference flow 👀 
 ![inference flow](https://docs.mech-mind.net/download/github/DLK/inference-flow-en.png)
 
-## C# samples
+## 📌 C# samples
 Two categories of samples are provided: **Basic** and **Advanced**.
 
-### 📌 Basic
+### Basic
 Samples using models exported from Mech-DLK to do inference of single images and simultaneous inference of images as well as obtain and visualize results.
 
 - [ImageInfer](https://github.com/MechMindRobotics/mechdlk_sdk/blob/v2.0.1/samples/csharp/Basic/ImageInfer/ImageInfer.cs): a sample for inference of single images (both single models and cascaded models are supported).
 
 - [MultiImageInfer](https://github.com/MechMindRobotics/mechdlk_sdk/blob/v2.0.1/samples/csharp/Basic/MutiImageInfer/MutiImageInfer.cs): a sample for simultaneous inference of images (both single models and cascaded models are supported).
 
-### 📌 Advanced
+### Advanced
 Samples demonstrating collaborative development of Mech-DLK SDK with HALCON/OpenCV.
 
 - [ImageInferWithHalcon](https://github.com/MechMindRobotics/mechdlk_sdk/blob/v2.0.1/samples/csharp/Advanced/ImageInferWithHalcon/ImageInferWithHalcon.cs): a sample that runs on the basis of Mech-DLK SDK and HALCON.
 
 - [ImageInferWithOpenCV](https://github.com/MechMindRobotics/mechdlk_sdk/blob/v2.0.1/samples/csharp/Advanced/ImageInferWithOpenCV/ImageInferWithOpenCV.cs): a sample that runs on the basis of Mech-DLK SDK and OpenCV.
 
-## C samples
+## 📌 C samples
 Two categories of samples are provided: **Basic** and **Advanced**.
 
-### 📌 Basic
+### Basic
 Samples using single models exported from Mech-DLK to do inference of single images as well as obtain and visualize results.
 
 - [Classification](https://github.com/MechMindRobotics/mechdlk_sdk/blob/v2.0.1/samples/c/Basic/Classification.c): a sample for inference based on the Classification model.
@@ -77,7 +77,7 @@ Samples using single models exported from Mech-DLK to do inference of single ima
 
 - [ObjectDetection](https://github.com/MechMindRobotics/mechdlk_sdk/blob/v2.0.1/samples/c/Basic/ObjectDetection.c): a sample for inference based on the Object Detection model.
 
-### 📌 Advanced
+### Advanced
 Samples for simultaneous inference of multiple images and inference based on cascaded models.
 
 - [CascadeModel](https://github.com/MechMindRobotics/mechdlk_sdk/blob/v2.0.1/samples/c/Advanced/CascadeModel.c): a sample for inference based on cascaded models.
