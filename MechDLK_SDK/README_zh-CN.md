@@ -33,7 +33,7 @@ Mech-DLK SDK 是专门配合 [Mech-DLK](https://www.mech-mind.com.cn/product/mec
 
 1. 在本地创建一个项目文件夹，例如“dlk_sdk”。
 
-2. 将 [Mech-DLK SDK](https://github.com/MechMindRobotics/mechdlk_sdk.git) 从 GitHub 克隆到该项目文件夹下。
+2. 将 [Mech-DLK SDK](https://github.com/MechMindRobotics/mechdlk_sdk/tree/v2.0.1) 从 GitHub 克隆到该项目文件夹下。
 
 3. 从[下载中心](https://downloads.mech-mind.com.cn/?tab=tab-dlk-sdk)下载 Mech-DLK SDK 依赖的第三方库（3rd_dll.zip）和资源文件（resources.zip）到该项目文件夹下。
 

@@ -35,7 +35,7 @@ Mech-DLK SDK is a secondary development software kit specifically designed to be
 
 1. Create a local project folder on your device, such as *dlk_sdk*.
 
-2. Clone the repository of [Mech-DLK SDK](https://github.com/MechMindRobotics/mechdlk_sdk.git) to the project folder.
+2. Clone the repository of [Mech-DLK SDK](https://github.com/MechMindRobotics/mechdlk_sdk/tree/v2.0.1) to the project folder.
 
 3. Download the third-party libraries (3rd_dll.zip) and resources (resources.zip) that Mech-DLK SDK relies on to the project folder from [Download Center](https://downloads.mech-mind.com/?tab=tab-dlk-sdk).
 
