@@ -67,24 +67,24 @@ Two categories of samples are provided: **Basic** and **Advanced**.
 ### 📌 Basic
 Samples using single models exported from Mech-DLK to do inference of single images as well as obtain and visualize results.
 
-- [Classification](https://github.com/MechMindRobotics/mechdlk_sdk/blob/v2.0.0/samples/c/Basic/Classification.c): a sample for inference based on the Classification model.
+- [Classification](https://github.com/MechMindRobotics/mechdlk_sdk/blob/v2.0.1/samples/c/Basic/Classification.c): a sample for inference based on the Classification model.
 
-- [DefectSegmentation](https://github.com/MechMindRobotics/mechdlk_sdk/blob/v2.0.0/samples/c/Basic/DefectSegmentation.c): a sample for inference based on the Defect Segmentation model.
+- [DefectSegmentation](https://github.com/MechMindRobotics/mechdlk_sdk/blob/v2.0.1/samples/c/Basic/DefectSegmentation.c): a sample for inference based on the Defect Segmentation model.
 
-- [FastPositioning](https://github.com/MechMindRobotics/mechdlk_sdk/blob/v2.0.0/samples/c/Basic/FastPositioning.c): a sample for inference based on the Fast Positioning model.
+- [FastPositioning](https://github.com/MechMindRobotics/mechdlk_sdk/blob/v2.0.1/samples/c/Basic/FastPositioning.c): a sample for inference based on the Fast Positioning model.
 
-- [InstanceSegmentation](https://github.com/MechMindRobotics/mechdlk_sdk/blob/v2.0.0/samples/c/Basic/InstanceSegmentation.c): a sample for inference based on the Instance Segmentation model.
+- [InstanceSegmentation](https://github.com/MechMindRobotics/mechdlk_sdk/blob/v2.0.1/samples/c/Basic/InstanceSegmentation.c): a sample for inference based on the Instance Segmentation model.
 
-- [ObjectDetection](https://github.com/MechMindRobotics/mechdlk_sdk/blob/v2.0.0/samples/c/Basic/ObjectDetection.c): a sample for inference based on the Object Detection model.
+- [ObjectDetection](https://github.com/MechMindRobotics/mechdlk_sdk/blob/v2.0.1/samples/c/Basic/ObjectDetection.c): a sample for inference based on the Object Detection model.
 
 ### 📌 Advanced
 Samples for simultaneous inference of multiple images and inference based on cascaded models.
 
-- [CascadeModel](https://github.com/MechMindRobotics/mechdlk_sdk/blob/v2.0.0/samples/c/Advanced/CascadeModel.c): a sample for inference based on cascaded models.
+- [CascadeModel](https://github.com/MechMindRobotics/mechdlk_sdk/blob/v2.0.1/samples/c/Advanced/CascadeModel.c): a sample for inference based on cascaded models.
 
-- [FolderImagesInfer](https://github.com/MechMindRobotics/mechdlk_sdk/blob/v2.0.0/samples/c/Advanced/FolderImagesInfer.c): a sample used to show the inference of images in a folder one by one.
+- [FolderImagesInfer](https://github.com/MechMindRobotics/mechdlk_sdk/blob/v2.0.1/samples/c/Advanced/FolderImagesInfer.c): a sample used to show the inference of images in a folder one by one.
 
-- [MultiImageInfer](https://github.com/MechMindRobotics/mechdlk_sdk/blob/v2.0.0/samples/c/Advanced/MultiImageInfer.c): a sample for simultaneous inference of images.
+- [MultiImageInfer](https://github.com/MechMindRobotics/mechdlk_sdk/blob/v2.0.1/samples/c/Advanced/MultiImageInfer.c): a sample for simultaneous inference of images.
 
 ## [Documentation](https://docs.mech-mind.net/en/dlk-sdk-manual/2.0.0/dlk-sdk.html)
 Please refer to the [Get started](https://docs.mech-mind.net/en/dlk-sdk-manual/2.0.1/infer-tutorial.html) section for instructions on using Mech-DLK SDK for model inference.
