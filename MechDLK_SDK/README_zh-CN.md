@@ -65,12 +65,12 @@ Mech-DLK SDK 中提供的 C++ 例程分为两类：**Basic** 和 **Advanced**。
 
 - [ImageInfer](https://github.com/MechMindRobotics/mechdlk_sdk/blob/v2.0.2/samples/cpp/Basic/ImageInfer/ImageInfer.cpp)：单图推理示例。
 
-- [MultiImageInfer](https://github.com/MechMindRobotics/mechdlk_sdk/blob/v2.0.2/samples/cpp/Basic/ImageInfer/MultiImageInfer.cpp)：多图同时推理示例。
+- [MultiImageInfer](https://github.com/MechMindRobotics/mechdlk_sdk/blob/v2.0.2/samples/cpp/Basic/MultiImageInfer/MultiImageInfer.cpp)：多图同时推理示例。
 
 ### Advanced
 此类例程主要用来展示 Mech-DLK SDK 与 OpenCV 协同开发。
 
-- [ImageInferWithOpenCV](https://github.com/MechMindRobotics/mechdlk_sdk/blob/v2.0.2/samples/cpp/Basic/ImageInfer/ImageInferWithOpenCV.cpp)：Mech-DLK SDK 与 OpenCV 配合使用示例（需本地安装 OpenCV）。
+- [ImageInferWithOpenCV](https://github.com/MechMindRobotics/mechdlk_sdk/blob/v2.0.2/samples/cpp/Advanced/ImageInferWithOpenCV/ImageInferWithOpenCV.cpp)：Mech-DLK SDK 与 OpenCV 配合使用示例（需本地安装 OpenCV）。
 
 ## 📌 C 例程
 Mech-DLK SDK 中提供的 C 例程分为两类：**Basic** 和 **Advanced**。

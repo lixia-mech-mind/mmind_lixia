@@ -69,12 +69,12 @@ Samples using single models exported from Mech-DLK to do inference of single ima
 
 - [ImageInfer](https://github.com/MechMindRobotics/mechdlk_sdk/blob/v2.0.2/samples/cpp/Basic/ImageInfer/ImageInfer.cpp): a sample for inference of single images.
 
-- [MultiImageInfer](https://github.com/MechMindRobotics/mechdlk_sdk/blob/v2.0.2/samples/cpp/Basic/ImageInfer/MultiImageInfer.cpp): a sample for simultaneous inference of images.
+- [MultiImageInfer](https://github.com/MechMindRobotics/mechdlk_sdk/blob/v2.0.2/samples/cpp/Basic/MultiImageInfer/MultiImageInfer.cpp): a sample for simultaneous inference of images.
 
 ### Advanced
 A sample demonstrating collaborative development of Mech-DLK SDK with OpenCV.
 
-- [ImageInferWithOpenCV](https://github.com/MechMindRobotics/mechdlk_sdk/blob/v2.0.2/samples/cpp/Basic/ImageInfer/ImageInferWithOpenCV.cpp): a sample running on the basis of Mech-DLK SDK and OpenCV.
+- [ImageInferWithOpenCV](https://github.com/MechMindRobotics/mechdlk_sdk/blob/v2.0.2/samples/cpp/Advanced/ImageInferWithOpenCV/ImageInferWithOpenCV.cpp): a sample running on the basis of Mech-DLK SDK and OpenCV.
 
 ## 📌 C samples
 Two categories of samples are provided: **Basic** and **Advanced**.
