@@ -102,7 +102,7 @@ Samples for simultaneous inference of multiple images and inference based on cas
 - [MultiImageInfer](https://github.com/MechMindRobotics/mechdlk_sdk/blob/v2.0.2/samples/c/Advanced/MultiImageInfer.c): a sample for simultaneous inference of images.
 
 ## [Documentation](https://docs.mech-mind.net/en/dlk-sdk-manual/2.0.2/dlk-sdk.html)
-Please refer to the [Get started](https://docs.mech-mind.net/en/dlk-sdk-manual/2.0.2/infer-tutorial.html) section for instructions on using Mech-DLK SDK for model inference.
+Please refer to the [Get Started](https://docs.mech-mind.net/en/dlk-sdk-manual/2.0.2/infer-tutorial.html) section for instructions on using Mech-DLK SDK for model inference.
 
 You may also find other contents that can help you get started with Mech-DLK SDK.
 - [System requirements](https://docs.mech-mind.net/en/dlk-sdk-manual/2.0.2/software-installation.html#_system_requirements)
